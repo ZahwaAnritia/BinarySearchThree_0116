@@ -30,6 +30,9 @@ public:
 		newNode->leftchild = nullptr;  //Make the left child of the new node point to null
 		newNode->rightchild = nullptr; // Make the right child of the new node point to null
 
+		Node* parent = nullptr;
+		Node* currentNode = nullptr;
+
 	}
 };
 
